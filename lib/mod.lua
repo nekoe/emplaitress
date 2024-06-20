@@ -175,6 +175,7 @@ function add_plaits_player(i)
         if self.name ~= nil then
             params:hide(n("group", i))
             _menu.rebuild_params()
+            self:stop_all()
         end
     end
 
